@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>directive</title>
+</head>
+<body>
+<div id="app">
+    <div>
+        <h2>代替画像1を読み込む場合</h2>
+        <img src="./image/demo-2.png" v-image-error="'alternative1'">
+    </div>
+    <div>
+        <h2>代替画像2を読み込む場合</h2>
+        <img src="./image/demo-2.png" v-image-error="'alternative2'">
+    </div>
+    <div>
+        <h2>属性値を何も指定しない場合</h2>
+        <img src="./image/demo-2.png" v-image-error>
+    </div>
+</div>
+<script src="./js/directive.bundle.js"></script>
+</body>
+</html>
