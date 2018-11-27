@@ -3,8 +3,6 @@ import Vue from 'vue/dist/vue.esm'
 Vue.directive('imageError', {
     bind (el, binding, vnode) {
 
-        console.log(binding.value)
-
         let src
         switch (binding.value) {
             case 'alternative1':
